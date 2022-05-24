@@ -14,11 +14,11 @@ const walletSlice = createSlice({
             if (!existingData) {
                 state.wallet.push({
                     id: newData.id,
-                    image: newData.image,
-                    price: newData.price,
-                    current_price: newData.current_price,
+                    symbol: newData.symbol,
                     name: newData.name,
-                    description: newData.description,
+                    image: newData.image,
+                    current_price: newData.current_price,
+                    market_cap: newData.market_cap,
                 });
             }
         },
