@@ -5,9 +5,9 @@ import './styles.css'
 const Navbar = () => {
     return(
         <header className="navbar">
-            <Link to={'/wallet'}>Wallet</Link>
-            <Link to={'/coins'}>Coins</Link>
             <Link to={'/'}>Home</Link>
+            <Link to={'/coins'}>Coins</Link>
+            <Link to={'/wallet'}>Wallet</Link>
         </header>
     )
 }
